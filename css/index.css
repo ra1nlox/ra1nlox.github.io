@@ -1,0 +1,55 @@
+.upperbar {
+	position: absolute;
+	display: flex;
+	height: 5.1em;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
+	background-image: linear-gradient(to right, #f4f053, #f0e017);
+	background-position: center, top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background {
+	position: static;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	height: 100em;
+	background-color: #2e2e2e;
+}
+
+.foreground {
+}
+
+.rightpanel {
+}
+
+.anchor {
+	@import url: ("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+	font-family: Anton, fantasy;
+	color: white;
+	text-decoration: none;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-size: 300%;
+
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
+
+.text {
+	@import url: ("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+	font-family: Anton, fantasy;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-size: 250%;
+
+	position: relative;
+	top: -23px;
+	left: 1030px;
+}
