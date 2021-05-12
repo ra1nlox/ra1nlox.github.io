@@ -16,15 +16,28 @@
 .background {
 	position: static;
 	margin-left: -10px;
+	margin-right: -8px;
 	margin-bottom: -10px;
 	height: 100em;
 	background-color: #2e2e2e;
 }
 
 .foreground {
+	background-color: whitesmoke;
+	position: absolute;
+	top: 5.1em;
+	left: 6em;
+	height: 95em;
+	width: 65em;
 }
 
 .rightpanel {
+	background-color: whitesmoke;
+	position: absolute;
+	top: 5.1em;
+	right: 6em;
+	height: 95em;
+	width: 30em;
 }
 
 .anchor {
@@ -51,5 +64,5 @@
 
 	position: relative;
 	top: -23px;
-	left: 1030px;
+	left: 54%;
 }
