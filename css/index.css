@@ -9,18 +9,43 @@
 	padding-right: 0%;
 	background-image: linear-gradient(to right, #f35d37, #f01717);
 	background-position: center, top;
-	background-repeat: no-repeat;
-	background-size: cover;
 	border-radius: 0px 0px 10px 10px;
 }
 
 .herb_img {
 	position: absolute;
-	left: 30%;
-	right: 0%;
-	top: -325%;
-	bottom: 0%;
-	transform: scale(0.13);
+	left: 50%;
+	right: 50%;
+	top: 1%;
+	bottom: 1%;
+	width: 4.8%;
+}
+
+.anchor {
+	@import url: ("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+	font-family: Anton, fantasy;
+	color: white;
+	text-decoration: none;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	font-size: 300%;
+
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
+
+.text {
+	@import url: ("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+	font-family: Anton, fantasy;
+	color: white;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+	font-size: 100%;
+
+	position: relative;
+	top: 20%;
+	left: 50%;
 }
 
 .background {
@@ -93,7 +118,7 @@ h2 {
 .herb_img_right {
 	width: 70%;
 	position: relative;
-	right: -4.5em;
+	right: -14%;
 	top: 1em;
 	margin: auto;
 }
@@ -103,33 +128,6 @@ h2 {
 	text-align: center;
 	position: relative;
 	bottom: -2em;
-}
-
-.anchor {
-	@import url: ("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-	font-family: Anton, fantasy;
-	color: white;
-	text-decoration: none;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
-	font-size: 300%;
-
-	position: relative;
-	top: 10px;
-	left: 30px;
-}
-
-.text {
-	@import url: ("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-	font-family: Anton, fantasy;
-	color: white;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
-	font-size: 250%;
-
-	position: relative;
-	top: -23px;
-	left: 54%;
 }
 
 .navbar_bar {
