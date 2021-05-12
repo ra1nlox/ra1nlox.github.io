@@ -11,6 +11,7 @@
 	background-position: center, top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 0px 0px 10px 10px;
 }
 
 .background {
@@ -25,19 +26,21 @@
 .foreground {
 	background-color: whitesmoke;
 	position: absolute;
-	top: 5.1em;
+	top: 6.1em;
 	left: 6em;
-	height: 95em;
+	height: 93em;
 	width: 65em;
+	border-radius: 10px;
 }
 
 .rightpanel {
 	background-color: whitesmoke;
 	position: absolute;
-	top: 5.1em;
+	top: 6.1em;
 	right: 6em;
-	height: 95em;
+	height: 93em;
 	width: 30em;
+	border-radius: 10px;
 }
 
 .anchor {
