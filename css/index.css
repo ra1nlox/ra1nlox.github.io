@@ -178,28 +178,6 @@ h2 {
 	cursor: pointer;
 }
 
-dialog {
-	border-radius: 10px;
-	text-transform: lowercase;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#closeDialog {
-	background: none;
-	outline: #2e2e2e;
-	border: 1;
-
-	display: block;
-	padding: 0 20px;
-	font-size: 20px;
-	font-family: Anton, fantasy;
-	text-transform: uppercase;
-	transition: 0.1s;
-
-	color: black;
-	border-radius: 10px;
-}
-
 li {
 	display: block;
 	padding: 0 20px;
